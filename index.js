@@ -31,7 +31,7 @@ function currentLine (line) {
         if (i === line.length) {
           var message = `${message} ${i+1}. ${line[i]}`
         } else {
-          var message = `${message} ${i+1}. ${line[i]}`
+          var message = `${message} ${i+1}. ${line[i]},`
         }
 
     } return message
