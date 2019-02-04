@@ -29,9 +29,9 @@ function currentLine (line) {
       message = "The line is currnetly:"
       for (i=0; i < line.length; i++){
         if (i === line.length+1) {
-          var message = `${message} ${i+1}. ${line[i]}`
-        } else {
           var message = `${message} ${i+1}. ${line[i]},`
+        } else {
+          var message = `${message} ${i+1}. ${line[i]}`
         }
 
     } return message
