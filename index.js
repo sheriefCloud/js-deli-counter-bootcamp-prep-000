@@ -23,7 +23,7 @@ function nowServing (deliLine){
 
 function currentLine (line) {
   if (line.length === 0){
-    return "There is nobody waiting to be served!"
+    return "The line is currently empty."
   } else {
       var i=0
       message = "The line is currnetly: "
