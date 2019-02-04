@@ -6,6 +6,6 @@
 function takeANumber (katzDeli,name){
   [...katzDeli, name];
   var position = katzDeli.length
-  var message = "Welcome, Ada. You are number "+ (position+1) +" in line."
+  var message = "Welcome, " +name+" You are number "+ (position+1) +" in line."
   return message
 }
