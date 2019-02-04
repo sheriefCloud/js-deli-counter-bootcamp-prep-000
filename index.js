@@ -33,7 +33,7 @@ function currentLine (line) {
         } else {
           var message = `${message} ${i+1}. ${line[i]}`
         }
-        
+
     } return message
 
   }
