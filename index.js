@@ -20,5 +20,3 @@ function nowServing (deliLine){
     return `Currently serving ${toBeServed}.`
   }
 }
-
-
