@@ -4,5 +4,5 @@
 
 
 var takeANumber = function(katzDeli,name){
-  
+
 }
