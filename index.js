@@ -26,7 +26,7 @@ function currentLine (line) {
     return "The line is currently empty."
   } else {
       var i=0
-      message = "The line is currnetly:"
+      message = "The line is currently:"
       for (i=0; i < line.length; i++){
         if (i+1 === line.length) {
           var message = `${message} ${i+1}. ${line[i]}`
